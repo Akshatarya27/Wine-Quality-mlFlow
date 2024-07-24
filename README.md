@@ -180,3 +180,5 @@ docker build -t winequal.azurecr.io/winequal:latest .
 docker login winequal.azurecr.io
  
 docker push winequal.azurecr.io/winequal:latest
+
+ENJOOY CODING!!
