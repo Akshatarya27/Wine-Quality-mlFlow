@@ -166,3 +166,17 @@ MLflow
  - Logging & tagging your model
 
 
+
+
+
+## Azure DEPLOYMENT
+
+username : winequal
+login server : winequal.azurecr.io
+password : bwYgnH4VEyBanc3wfFzF3hxokMc6ZSYB+gxiN0j16W+ACRDWxjK2
+
+docker build -t winequal.azurecr.io/winequal:latest .
+
+docker login winequal.azurecr.io
+ 
+docker push winequal.azurecr.io/winequal:latest
